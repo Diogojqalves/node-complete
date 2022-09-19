@@ -1,0 +1,14 @@
+Login Request -> Server checks email and password in our database 
+-> server creates session for the user and return response and restores the cookie (stores session id)
+
+controllers -> auth.js -> postSignup(create unique user)
+
+**Always encrypt the password (hash)**
+npm install --save bcryptjs
+controllers -> auth.js -> import bcrypt and call the .hash(method)
+
+**Using a CSRF Token to prevent attacks of forgery to steal the user session**
+npm install --save csurf
+
+app.js -> import and initialize package
+controllers -> shop.js -> store token to use in our view (allFiles.ejs)

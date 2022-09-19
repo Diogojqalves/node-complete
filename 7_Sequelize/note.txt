@@ -1,0 +1,12 @@
+npm install --save sequelize
+util -> database.js (import sequelize)
+models -> product.js (define model)
+app.js -> sync JS with DB 
+controllers -> admin.js (insert data & create product)
+
+#sequelize v5 replaced findById() with findByPk()
+
+app.js -> sync product with dummy user (Product.belongsTo())
+controllers -> admin.js -> fetch user products
+app.js -> sync cart
+controllers -> shop.js -> fetch user cart

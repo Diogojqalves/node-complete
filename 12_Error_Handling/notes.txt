@@ -1,0 +1,1 @@
+using express.js error handling middleware when you pass next(error)

@@ -1,0 +1,5 @@
+Models - represent your data in your code; work with your data (e.g. save, fetch)
+
+Views - what the users see; decoupled from the application code
+
+Controllers - Connecting your Models and your Views; Contains the "in-between" logic;

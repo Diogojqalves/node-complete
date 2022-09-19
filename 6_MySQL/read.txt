@@ -1,0 +1,3 @@
+npm install --save mysql2
+util -> database.js
+/models/product.js + /controllers/shop.js -> fetch database

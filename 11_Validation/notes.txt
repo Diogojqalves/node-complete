@@ -1,0 +1,7 @@
+validate user input (ex: email and password creation)
+npm install --save express-validator (chech github docs to see the validators list)
+
+
+routes -> auth.js -> import express-validator/check and add route validation with the check()
+
+controllers -> auth.js -> import express-validator/check and validate result on the sign request

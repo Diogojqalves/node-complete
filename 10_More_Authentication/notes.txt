@@ -1,0 +1,4 @@
+Resetting passwords
+controllers -> auth.js -> getReset() -> postReset(implementToken) -> send reset password email
+routes -> auth.js
+model -> user.js (store token)

@@ -1,0 +1,14 @@
+http ---> Launch a server, send requests
+https ---> Launch a SSL server
+fs
+path
+os
+
+///////////////////////////////////////////
+
+npm init ---> creates package.JSON file
+
+npm install nodemon ---> for autorestarts
+
+//////////////////////////////////////////
+

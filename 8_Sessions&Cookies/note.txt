@@ -1,0 +1,13 @@
+cookies are stored on the client-side
+cookies can be manipulated in the browser; cookies can be shared;
+usually authentication packages configure cookies for us
+
+controllers -> auth.js :
+ - setHeader(cookie, loggedIn; Max-Age='seconds'; HttpOnly) = global variable so the user  can be logged in during his session and navigate the app
+
+Session is shared with the requests done by the same user (stored on the server (database))
+Is associated with the user via cookie
+
+npm install --save express-session
+
+app.js -> import and setup session (app.use(session))
